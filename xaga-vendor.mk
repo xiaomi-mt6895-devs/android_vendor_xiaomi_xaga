@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/xiaomi/xaga/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/xaga/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/xaga/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
     vendor/xiaomi/xaga/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
     vendor/xiaomi/xaga/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
@@ -246,7 +245,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/xaga/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/xaga/proprietary/vendor/lib/rfsa/adsp/libSuperSensor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSuperSensor_skel.so \
-    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mediatek.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/audio.primary.mt6895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6895.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/fingerprint.fpc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/sensors.elliptic@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.elliptic@2.0.so \
@@ -260,5 +260,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libmisound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisound.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libmisoundcrossfade.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisoundcrossfade.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
-    vendor/xiaomi/xaga/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so \
-    vendor/xiaomi/xaga/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so
